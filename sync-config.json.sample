@@ -1,0 +1,19 @@
+{
+  "device_name": "Game Server Node",
+  "listening_port" : 55555,
+  "storage_path" :  "/btsync_data",
+  "use_upnp" : true,
+  "shared_folders" :
+  [
+    {
+      "secret" : "<SCRIPTS_SECRET>",
+      "dir" : "/btsync/Scripts",
+      "use_relay_server" : true,
+      "use_tracker" : true,
+      "use_dht" : false,
+      "search_lan" : true,
+      "use_sync_trash" : false,
+      "overwrite_changes" : true
+    }
+  ]
+}
