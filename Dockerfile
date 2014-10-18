@@ -22,7 +22,7 @@ RUN curl -o /usr/bin/btsync.tar.gz http://download-new.utorrent.com/endpoint/bts
 # setup directories
 RUN mkdir -p /btsync/Scripts
 
-# Web GUI and sync
+# sync
 EXPOSE 55555
 
 ENTRYPOINT ["btsync"]

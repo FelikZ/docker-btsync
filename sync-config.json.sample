@@ -1,5 +1,5 @@
 {
-  "device_name": "Game Server Node",
+  "device_name": "<BTSYNC_NAME>",
   "listening_port" : 55555,
   "storage_path" :  "/btsync_data",
   "use_upnp" : true,
